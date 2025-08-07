@@ -1,7 +1,58 @@
+html{
+    font-size : 62.5%;
+}
+
+
 .estilo_tituloP{
     color: brown;
 }
 
-.estilo_parrafosP{
+.estilo_parrafosP::selection{
     color: purple;
+}
+
+input::placeholder{
+    color: red;
+}
+
+.cajas_1{
+    background-color: red;
+    height: 150px;
+    width: 300px;
+    
+}
+
+.cajas_2{
+    background-color: blue;
+    height: 150px;
+    width: 300px;
+    
+}
+
+.cajas_3{
+    background-color: rgb(242, 255, 0);
+    height: 150px;
+    width: 300px;
+    
+}
+.cajas_4{
+    background-color: rgb(0, 255, 47);
+    height: 150px;
+    width: 300px;
+    
+}
+.display_inline{
+    display: inline;
+
+}
+.display_inline_block{
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+
+}
+.flex_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
